@@ -1,0 +1,21 @@
+{
+  "chooseLanguage": "भाषा निवडा",
+  "languageHint": "पुढे जाण्यासाठी भाषा निवडा.",
+  "welcomeTitle": "SUVIDHA किऑस्क मध्ये आपले स्वागत आहे",
+  "welcomeSubtitle": "वीज, गॅस आणि महानगरपालिका सेवांसाठी एक किऑस्क.",
+  "deptElectricity": "वीज विभाग",
+  "deptGas": "गॅस विभाग",
+  "deptMunicipal": "महानगरपालिका",
+  "chooseService": "सेवा निवडा",
+  "loginTitle": "नागरिक प्रमाणीकरण",
+  "mobileNumber": "मोबाईल नंबर",
+  "sendOTP": "OTP पाठवा",
+  "otpTitle": "OTP पडताळणी",
+  "verifyContinue": "पडताळा",
+  "continue": "पुढे",
+  "submitRequest": "विनंती सबमिट करा",
+  "receiptTitle": "पावती तयार",
+  "trackTitle": "स्थिती तपासा",
+  "alertsTitle": "शहर सूचना",
+  "endSession": "सेशन समाप्त"
+}

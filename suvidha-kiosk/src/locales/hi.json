@@ -1,0 +1,21 @@
+{
+  "chooseLanguage": "भाषा चुनें",
+  "languageHint": "जारी रखने के लिए भाषा चुनें।",
+  "welcomeTitle": "SUVIDHA कियोस्क में आपका स्वागत है",
+  "welcomeSubtitle": "बिजली, गैस और नगर निगम सेवाओं के लिए एक कियोस्क।",
+  "deptElectricity": "बिजली विभाग",
+  "deptGas": "गैस विभाग",
+  "deptMunicipal": "नगर निगम",
+  "chooseService": "सेवा चुनें",
+  "loginTitle": "नागरिक प्रमाणीकरण",
+  "mobileNumber": "मोबाइल नंबर",
+  "sendOTP": "OTP भेजें",
+  "otpTitle": "OTP सत्यापन",
+  "verifyContinue": "सत्यापित करें",
+  "continue": "आगे बढ़ें",
+  "submitRequest": "अनुरोध सबमिट करें",
+  "receiptTitle": "रसीद तैयार",
+  "trackTitle": "स्थिति ट्रैक करें",
+  "alertsTitle": "शहर अलर्ट",
+  "endSession": "सेशन समाप्त"
+}

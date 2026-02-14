@@ -1,0 +1,138 @@
+{
+  "chooseLanguage": "Choose your language",
+  "languageHint": "Select your preferred language to continue.",
+  "language": "Language",
+  "changeLanguage": "Change",
+  "loggedInAs": "Logged in",
+  "guestMode": "Guest Mode",
+  "endSession": "End Session",
+
+  "deptElectricity": "Electricity Utility",
+  "deptGas": "Gas Distribution",
+  "deptMunicipal": "Municipal Services",
+
+  "welcomeTitle": "Welcome to SUVIDHA Kiosk",
+  "welcomeSubtitle": "One kiosk for electricity, gas and municipal services.",
+  "tapToContinue": "Tap to continue",
+
+  "chooseService": "Choose a service",
+  "chooseServiceHint": "Select the service you want to use.",
+  "expectedTime": "Expected time",
+  "back": "Back",
+
+  "loginTitle": "Citizen Authentication",
+  "loginSubtitle": "Enter your mobile number to receive OTP.",
+  "mobileNumber": "Mobile Number",
+  "sendOTP": "Send OTP",
+  "invalidPhone": "Please enter a valid 10-digit mobile number.",
+  "invalidOTP": "Invalid OTP. Please try again.",
+
+  "otpTitle": "Verify OTP",
+  "otpSentTo": "OTP sent to",
+  "enterOTP": "Enter OTP",
+  "verifyContinue": "Verify & Continue",
+
+  "serviceFormTitle": "Service Form",
+  "selectedService": "Selected Service",
+  "continue": "Continue",
+  "pleaseFill": "Please fill",
+
+  "uploadDocsTitle": "Upload Documents",
+  "uploadDocsSubtitle": "Scan QR with your phone to upload required documents.",
+  "doneContinue": "Done, Continue",
+
+  "reviewTitle": "Review Details",
+  "reviewSubtitle": "Confirm details before submission.",
+  "submitRequest": "Submit Request",
+  "service": "Service",
+
+  "receiptTitle": "Receipt Generated",
+  "receiptSubtitle": "Please print or save the receipt.",
+  "requestId": "Request ID",
+  "status": "Status",
+  "dateTime": "Date & Time",
+  "printReceipt": "Print Receipt",
+  "trackNow": "Track Now",
+  "finishEndSession": "Finish",
+
+  "trackTitle": "Track Application Status",
+  "trackSubtitle": "Enter your Request ID to see status.",
+  "track": "Track",
+  "enterRequestId": "Enter a request ID.",
+  "statusFor": "Status for",
+
+  "alertsTitle": "City Alerts",
+  "alertsSubtitle": "Live advisories, outages and notices.",
+
+  "consumerNumber": "Consumer Number",
+  "enterConsumerNumber": "Enter consumer number",
+  "amount": "Amount",
+  "enterAmount": "Enter amount",
+
+  "fullName": "Full Name",
+  "enterFullName": "Enter full name",
+  "address": "Address",
+  "enterAddress": "Enter address",
+  "loadRequirement": "Load Requirement (kW)",
+  "enterLoad": "Enter required load",
+
+  "area": "Area",
+  "enterArea": "Enter area",
+  "details": "Details",
+  "describeIssue": "Describe the issue",
+
+  "meterReading": "Meter Reading",
+  "enterMeterReading": "Enter meter reading",
+
+  "gasConnectionId": "Gas Connection ID",
+  "enterGasId": "Enter gas connection ID",
+  "deliveryAddress": "Delivery Address",
+
+  "location": "Location",
+  "enterLocation": "Enter location",
+
+  "ward": "Ward",
+  "enterWard": "Enter ward",
+  "zone": "Zone",
+  "enterZone": "Enter zone",
+
+  "poleNumber": "Pole Number",
+  "enterPoleNumber": "Enter pole number",
+
+  "propertyId": "Property ID",
+  "enterPropertyId": "Enter property ID",
+
+  "childName": "Child Name",
+  "enterChildName": "Enter child name",
+  "dateOfBirth": "Date of Birth",
+  "enterDOB": "Enter DOB",
+
+  "personName": "Person Name",
+  "enterPersonName": "Enter person name",
+  "dateOfDeath": "Date of Death",
+  "enterDOD": "Enter DOD",
+
+  "businessName": "Business Name",
+  "enterBusinessName": "Enter business name",
+
+  "svcElectricityPayBill": "Pay Electricity Bill",
+  "svcElectricityNewConnection": "New Electricity Connection",
+  "svcElectricityOutageComplaint": "Power Outage Complaint",
+  "svcElectricityMeterReading": "Submit Meter Reading",
+
+  "svcGasPayBill": "Pay Gas Bill",
+  "svcGasNewConnection": "New Gas Connection",
+  "svcGasLeakageComplaint": "Gas Leakage Complaint",
+  "svcGasRefillBooking": "Gas Refill Booking",
+
+  "svcMunicipalWaterComplaint": "Water Supply Complaint",
+  "svcMunicipalWasteComplaint": "Waste Pickup Complaint",
+  "svcMunicipalStreetLightComplaint": "Street Light Complaint",
+  "svcMunicipalPotholeComplaint": "Road / Pothole Complaint",
+  "svcMunicipalPropertyTax": "Pay Property Tax",
+  "svcMunicipalBirthCertificate": "Birth Certificate Request",
+  "svcMunicipalDeathCertificate": "Death Certificate Request",
+  "svcMunicipalTradeLicense": "Trade License Request",
+  "svcMunicipalDrainageComplaint": "Drainage Blockage Complaint",
+  "svcMunicipalPublicToiletComplaint": "Public Toilet Sanitation Complaint"
+}
