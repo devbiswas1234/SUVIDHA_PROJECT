@@ -6,21 +6,39 @@ const router = express.Router();
 const sessions = {};
 
 router.post("/", async (req, res) => {
-  const { sessionId, message } = req.body;
+  const { message } = req.body;
 
-  if (!sessionId || !message) {
-    return res.status(400).json({ error: "sessionId and message required" });
+  const text = message.toLowerCase();
+
+  // 🔥 Detect Services
+  if (text.includes("birth")) {
+    return res.json({
+      type: "service",
+      service: "birth_certificate",
+      redirect: "/birth-certificate",
+    });
   }
 
-  if (!sessions[sessionId]) {
-    sessions[sessionId] = { currentFlow: null, step: 0, data: {} };
+  if (text.includes("complaint")) {
+    return res.json({
+      type: "service",
+      service: "complaint",
+      redirect: "/complaint",
+    });
   }
 
-  const reply = await handleMessage(message, sessions[sessionId]);
+  if (text.includes("status")) {
+    return res.json({
+      type: "service",
+      service: "status",
+      redirect: "/status",
+    });
+  }
 
+  // Default fallback
   res.json({
-    reply,
-    session: sessions[sessionId],
+    type: "text",
+    reply: "I can help you with certificates, complaints, or status checks.",
   });
 });
 

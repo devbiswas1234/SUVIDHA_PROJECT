@@ -13,11 +13,16 @@ export function detectIntent(text) {
   if (msg.includes("character")) return "CHARACTER_CERT";
 
   // Complaints
-  if (msg.includes("garbage")) return "GARBAGE_COMPLAINT";
-  if (msg.includes("street light") || msg.includes("light not working")) return "STREET_LIGHT_COMPLAINT";
-  if (msg.includes("road")) return "ROAD_DAMAGE_COMPLAINT";
-  if (msg.includes("water leakage")) return "WATER_LEAKAGE_COMPLAINT";
-  if (msg.includes("drain") || msg.includes("drainage")) return "DRAINAGE_COMPLAINT";
+  if (msg.includes("garbage")) return "COMPLAINT_GARBAGE";
+  if (msg.includes("street light") || msg.includes("light not working")) return "COMPLAINT_STREET_LIGHT";
+  if (msg.includes("road") || msg.includes("pothole")) return "COMPLAINT_ROAD";
+  if (msg.includes("water leakage")) return "COMPLAINT_WATER_LEAK";
+  if (msg.includes("drain") || msg.includes("drainage")) return "COMPLAINT_DRAINAGE";
+  if (msg.includes("electricity bill") || msg.includes("electricity complaint")) return "COMPLAINT_ELECTRICITY";
+  if (msg.includes("public nuisance")) return "COMPLAINT_NUISANCE";
+  if (msg.includes("encroachment")) return "COMPLAINT_ENCROACHMENT";
+  if (msg.includes("traffic signal")) return "COMPLAINT_TRAFFIC";
+  if (msg.includes("stray animal") || msg.includes("dog")) return "COMPLAINT_STRAY_ANIMAL";
 
   // Tracking
   if (msg.includes("status") || msg.includes("track")) return "STATUS_TRACKING";

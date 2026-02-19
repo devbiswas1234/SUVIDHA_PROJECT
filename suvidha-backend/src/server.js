@@ -38,3 +38,19 @@ app.use("/api/uploads", uploadRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`SUVIDHA backend running on ${PORT}`));
+
+app.use(express.json());
+
+app.post("/chat", async (req, res) => {
+  const { message } = req.body;
+
+  // Simple test response (temporary)
+  if (!message) {
+    return res.status(400).json({ reply: "Message is required" });
+  }
+
+  // Temporary reply
+  return res.json({
+    reply: `You said: ${message}`
+  });
+});

@@ -1,0 +1,166 @@
+.chatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0d6efd, #004aad);
+  color: white;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  animation: pulse 2s infinite;
+  transition: transform 0.2s ease;
+}
+
+.chatButton:hover {
+  transform: scale(1.08);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(13,110,253,0.6); }
+  70% { box-shadow: 0 0 0 15px rgba(13,110,253,0); }
+  100% { box-shadow: 0 0 0 0 rgba(13,110,253,0); }
+}
+
+/* Chat Window */
+.chatWindow {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 360px;
+  height: 500px;
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: bounceIn 0.4s ease;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.chatHeader {
+  background: linear-gradient(135deg, #0d6efd, #004aad);
+  color: white;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.closeBtn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.chatContent {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Typing indicator */
+.typing {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+.typing span {
+  width: 8px;
+  height: 8px;
+  background: #004aad;
+  border-radius: 50%;
+  animation: blink 1.4s infinite both;
+}
+
+.typing span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.typing span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  20% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messagesArea {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.userMessageWrapper {
+  text-align: right;
+  margin: 8px 0;
+}
+
+.botMessageWrapper {
+  text-align: left;
+  margin: 8px 0;
+}
+
+.userMessage {
+  background: #0d6efd;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.botMessage {
+  background: #e9ecef;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.inputArea {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.sendButton {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

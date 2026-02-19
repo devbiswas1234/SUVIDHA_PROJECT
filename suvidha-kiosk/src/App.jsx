@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Chatbot from "./pages/Chatbot";
 
 import "./i18n";
 
@@ -38,6 +39,8 @@ export default function App() {
         {/* KIOSK */}
         <Route element={<KioskLayout />}>
           <Route path="/" element={<Navigate to="/language" replace />} />
+          <Route path="/chat" element={<Chatbot />} />
+
 
           <Route path="/language" element={<LanguageSelect />} />
           <Route path="/home" element={<Home />} />
